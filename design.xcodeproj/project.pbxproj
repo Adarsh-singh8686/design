@@ -16,6 +16,8 @@
 		D2F8594325DFB8C60048F6F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F8594125DFB8C60048F6F3 /* LaunchScreen.storyboard */; };
 		D2F8594E25DFB8C60048F6F3 /* designTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F8594D25DFB8C60048F6F3 /* designTests.swift */; };
 		D2F8595925DFB8C60048F6F3 /* designUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F8595825DFB8C60048F6F3 /* designUITests.swift */; };
+		D2F8597025DFB8EC0048F6F3 /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F8596E25DFB8EC0048F6F3 /* myTableViewCell.swift */; };
+		D2F8597125DFB8EC0048F6F3 /* myTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2F8596F25DFB8EC0048F6F3 /* myTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D2F8595425DFB8C60048F6F3 /* designUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = designUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F8595825DFB8C60048F6F3 /* designUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = designUITests.swift; sourceTree = "<group>"; };
 		D2F8595A25DFB8C60048F6F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F8596E25DFB8EC0048F6F3 /* myTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
+		D2F8596F25DFB8EC0048F6F3 /* myTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				D2F8594125DFB8C60048F6F3 /* LaunchScreen.storyboard */,
 				D2F8594425DFB8C60048F6F3 /* Info.plist */,
 				D2F8593C25DFB8C50048F6F3 /* design.xcdatamodeld */,
+				D2F8596E25DFB8EC0048F6F3 /* myTableViewCell.swift */,
+				D2F8596F25DFB8EC0048F6F3 /* myTableViewCell.xib */,
 			);
 			path = design;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2F8594325DFB8C60048F6F3 /* LaunchScreen.storyboard in Resources */,
+				D2F8597125DFB8EC0048F6F3 /* myTableViewCell.xib in Resources */,
 				D2F8594025DFB8C60048F6F3 /* Assets.xcassets in Resources */,
 				D2F8593B25DFB8C50048F6F3 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2F8593825DFB8C50048F6F3 /* ViewController.swift in Sources */,
+				D2F8597025DFB8EC0048F6F3 /* myTableViewCell.swift in Sources */,
 				D2F8593E25DFB8C50048F6F3 /* design.xcdatamodeld in Sources */,
 				D2F8593425DFB8C50048F6F3 /* AppDelegate.swift in Sources */,
 				D2F8593625DFB8C50048F6F3 /* SceneDelegate.swift in Sources */,
