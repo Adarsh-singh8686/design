@@ -22,6 +22,6 @@ class myTableViewCell: UITableViewCell {
         self.textView.text = "Dolce & Gabbana Black/Brown DG4190 Gradient Leopard Print Cat Eye Sunglasses"
         self.label.font = UIFont(name: "Dolce & Gabbana", size: 20)
         self.label.textColor = UIColor.black
-        self.label.text = " Dolce & Gabbana"
+        self.label.text = "Dolce & Gabbana"
     }
 }
